@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Temperature Converter</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form>
+            <div class="container" align="center">
+                <h1>Temperature Converter <img src="temperature-2-xxl.png"></h1>
+                <div>
+                    <label for="celcius"></label>
+                    <input type="number" placeholder="Enter the value" id="celcius"/>
+                </div>
+                <div class="select">
+                     <label for="rd1">Select the unit</label></br>
+                     <input type="radio" name="testing" value="°C" id="rd1">Celcius
+                     <label for="rd2"></label>
+                     <input type="radio" name="testing" value="°F" id="rd2">Fahrenhite
+                     <label for="rd3"></label>
+                     <input type="radio" name="testing" value="°K" id="rd3">Kelvin
+                </div>
+
+                <form>
+                    <div class="convert">
+                        <p>Convert into<p>
+                            <input type="radio" name="testing1" value="Celcius" id="rd4">Celcius
+                            <input type="radio" name="testing1" value="Fahrenhite" id="rd5">Fahrenhite
+                            <input type="radio" name="testing1" value="Kelvin" id="rd6">Kelvin
+                    </div>
+                </form>    
+
+                <div class="button" >
+                    <input type="submit" value="Convert" onclick="fn1()"></input>
+                </div>
+
+                <div class="Result">
+                    <p>Result</p>
+                    <input type="number" placeholder="Result is">
+                </div>
+            </div>    
+        </form>
+    </body>
+</html>
